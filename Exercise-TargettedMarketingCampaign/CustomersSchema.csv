@@ -1,0 +1,7 @@
+customer_id,email_address,first_name,last_name,gender,purchased_products
+12456,'tom.thumb@test.com','tom', 'thumb', 'm', ['home'],
+64541,'bob.evens@test.com','bob', 'evens', 'm', ['home'],
+49357,'barry.scott@test.com','barry', 'scott', 'm', ['home'],
+78345,'clair.cummings@test.com','clair', 'cummings', 'f', ['home'],
+38764,'harvy.eason@test.com','harvey','eason','m',['car', 'bike', 'van'],
+

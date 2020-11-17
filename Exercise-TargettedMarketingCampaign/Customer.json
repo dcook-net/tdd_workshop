@@ -1,0 +1,34 @@
+[
+  {
+    "customer_id": 12456,
+    "email_address": "tom.thumb@test.com",
+    "first_name": "tom",
+    "last_name": "thumb",
+    "gender": 'm',
+    "purchased_products": [
+      "home"
+    ]
+  },
+  {
+    "customer_id": 64541,
+    "email_address": "bob.evens@test.com",
+    "first_name": "bob",
+    "last_name": "evens",
+    "gender": "m",
+    "purchased_products": [
+      "home"
+    ]
+  },
+  {
+    "customer_id": 38764,
+    "email_address": "harvy.eason@test.com",
+    "first_name": "harvy",
+    "last_name": "eason",
+    "gender": "m",
+    "purchased_products": [
+      "car",
+      "bike",
+      "van"
+    ]
+  }
+]

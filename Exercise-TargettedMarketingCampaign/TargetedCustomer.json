@@ -1,0 +1,20 @@
+[
+  {
+    "customer_id": 12456,
+    "email": "tom.thumb@test.com",
+    "forename": "tom",
+    "surname": "thumb"
+  },
+  {
+    "customer_id": 64541,
+    "email": "bob.evens@test.com",
+    "forename": "bob",
+    "surname": "evens"
+  },
+  {
+    "customer_id": 38764,
+    "email": "harvy.eason@test.com",
+    "forename": "harvy",
+    "surname": "eason"
+  }
+]
