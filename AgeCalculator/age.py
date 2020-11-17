@@ -49,3 +49,15 @@ class AgeCalc3(object):
                               ((today.month, today.day) < (dob.month, dob.day))
 
         return int(difference_in_years)
+
+# NB: I would shy away from using public setter methods to initialise dependencies in your production implementation.
+# When the only way to create an instance of an object is to provide all its dependencies via the constructor, then there
+# are no suprises when you call methods that use those dependencies - they have been initialised and are ready to go.
+# If you enable public setter methods for critical dependecies you allow for the possibility that an instance of your object has been created,
+# but it is not yet ready for all of its methods to be executed...as a critical dependency has not yet been provided.
+
+# A phrase that is often used in the software world is:
+#    "Make illegal states unrepresentable"
+
+# If the only way to create an instance is to provide all critical dependecies up front on creation, then you can never be in a position where
+# exceptions are thrown because a critical dependency is null

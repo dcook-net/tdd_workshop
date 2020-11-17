@@ -19,6 +19,11 @@ def test_properties_set_correctly():
 
     person = Person(first_name, surname, dob, height, weight)
 
+    # Don't do this...You are basically testing the Python works. That's not your job, that's the job of the people that work on Python!
+    # If you are doing TDD correctly, you will be using these properties in your code anyway.
+    # And that code will be making a previously failing test pass
+    # So it should be tested implicitly, without the need to explicitly write this sort of test....
+    # which you will need to maintain........FOREVER!
     assert person._firstname == first_name
     assert person._surname == surname
     assert person._dob == dob
